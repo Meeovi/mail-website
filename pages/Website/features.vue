@@ -92,4 +92,8 @@
     useHead({
         title: 'Meeovi Mail - Features'
     })
+
+    definePageMeta({
+        layout: "website",
+    });
 </script>
