@@ -28,7 +28,7 @@
                     <ecosystemmenu />
                 </v-col>
                 <v-col>
-                    <v-btn href="/app/">Login / Signup</v-btn>
+                    <v-btn href="/app/inbox">Login / Signup</v-btn>
                 </v-col>
             </div>
         </v-app-bar>
@@ -70,7 +70,7 @@
                         </div>
                     </v-navigation-drawer>
                     <v-main id="sidebarNav"></v-main>
-                    <main id="mainSection">
+                    <main id="mainWebsite">
                         <slot />
                     </main>
                 </v-layout>
